@@ -16,7 +16,7 @@
          <destination class="PerfRepoDestination">
             <period type="percentage" value="100"/>
             <property name="metric" value="throughput"/>
-            <property name="repositoryUrl" value="${perfreo.host:localhost}:${perfrepo.port:8080}"/>
+            <property name="repositoryUrl" value="${perfrepo.host:localhost}:${perfrepo.port:8080}"/>
             <property name="username" value="perfrepouser"/>
             <property name="password" value="perfrepouser1."/>
             <property name="testUID" value="geecon-2015-test"/>

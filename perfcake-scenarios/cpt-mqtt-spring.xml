@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <scenario xmlns="urn:perfcake:scenario:6.0">
    <run type="${perfcake.run.type:time}" value="${perfcake.run.duration:60000}"/>
-   <generator class="DefaultMessageGenerator" threads="${perfcake.thread.count:25}"/>
+   <generator class="DefaultMessageGenerator" threads="${perfcake.thread.count:10}"/>
    <sender class="MqttSender">
       <target>tcp://${server.host}:${server.port}/cpt-mqtt-spring-request</target>
       <property name="responseTarget" value="cpt-mqtt-spring-response"/>
