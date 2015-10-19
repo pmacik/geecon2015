@@ -25,8 +25,8 @@
             <property name="username" value="perfrepouser"/>
             <property name="password" value="perfrepouser1."/>
             <property name="testUID" value="${perfcake.scenario}"/>
-            <property name="tags" value="GeeCon2015;IoT;${perfcake.run.tag}"/>
-            <property name="testExecutionName" value="GeeCon 2015: IoT REST (${perfcake.run.tag})"/>
+            <property name="tags" value="GeeCON2015;IoT;${perfcake.run.tag}"/>
+            <property name="testExecutionName" value="GeeCON 2015: IoT REST (${perfcake.run.tag})"/>
             <property name="reporterResultName" value="Result"/>
          </destination>
       </reporter>

@@ -20,8 +20,8 @@
             <property name="username" value="perfrepouser"/>
             <property name="password" value="perfrepouser1."/>
             <property name="testUID" value="geecon-2015-test"/>
-            <property name="tags" value="GeeCon;2015;delay=${delay:200}"/>
-            <property name="testExecutionName" value="GeeCon 2015 Test: (${perfcake.run.nice.timestamp})"/>
+            <property name="tags" value="GeeCON2015;delay=${delay:200}"/>
+            <property name="testExecutionName" value="GeeCON 2015 Test: (${perfcake.run.nice.timestamp})"/>
             <property name="reporterResultName" value="Average"/>
          </destination>
       </reporter>
